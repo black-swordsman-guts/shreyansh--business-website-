@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fit India Gym — Transform Your Physique</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="images/logo.png"/>
+</head>
+<body>
+<header class="navbar">
+  <a href="index.html" class="navbar__logo">
+    <img src="images/logo.png" alt="Fit India Gym Logo"/>
+    <span class="navbar__brand">FIT <span class="ti-s">I</span><span class="ti-s">N</span><span class="ti-w">D</span><span class="ti-w">I</span><span class="ti-g">A</span> GYM</span>
+  </a>
+  <nav class="nav-container">
+    <a href="index.html" class="nav-btn  active">Home</a>
+    <a href="services.html" class="nav-btn">Services</a>
+    <a href="membership.html" class="nav-btn">Membership</a>
+    <a href="gallery.html" class="nav-btn">Gallery</a>
+    <a href="about.html" class="nav-btn">About</a>
+    <svg class="outline" xmlns="http://www.w3.org/2000/svg">
+      <rect class="rect" pathLength="100" fill="none" width="100%" height="100%"/>
+    </svg>
+  </nav>
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle Menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<nav class="mobile-nav" id="mobileNav">
+  <a href="index.html"  class="active">Home</a>
+  <a href="services.html">Services</a>
+  <a href="membership.html">Membership</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+</nav>
+<section class="hero">
+  <h1 class="hero__title">FIT <span class="ti-s">I</span><span class="ti-s">N</span><span class="ti-w">D</span><span class="ti-w">I</span><span class="ti-g">A</span> GYM</h1>
+  <p class="hero__unisex">— UNISEX —</p>
+  <p class="hero__tagline">"Transform your physique, elevate your life"</p>
+  <div class="hero__cta">
+    <a href="membership.html" class="btn-join" alt="JOIN TODAY">
+      <i>J</i><i>O</i><i>I</i><i>N</i><i>&nbsp;</i><i>T</i><i>O</i><i>D</i><i>A</i><i>Y</i>
+    </a>
+    <a href="gallery.html" class="btn-explore">
+      Explore Gym
+      <span class="btn-explore__icon-wrapper">
+        <svg class="btn-explore__icon-svg" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        <svg class="btn-explore__icon-svg btn-explore__icon-svg--copy" viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </span>
+    </a>
+  </div>
+</section>
+<section class="stats-bar">
+  <div class="stats-bar__grid">
+    <div class="stat-item"><div class="stat-item__number">500+</div><div class="stat-item__label">Happy Members</div></div>
+    <div class="stat-item"><div class="stat-item__number">10+</div><div class="stat-item__label">Expert Trainers</div></div>
+    <div class="stat-item"><div class="stat-item__number">6</div><div class="stat-item__label">Services Offered</div></div>
+    <div class="stat-item"><div class="stat-item__number">6</div><div class="stat-item__label">Days a Week</div></div>
+  </div>
+</section>
+<div class="section">
+  <div class="section__header">
+    <span class="section__label">Why Fit India Gym</span>
+    <h2 class="section__title">Built for Every Indian</h2>
+    <div class="divider-line"></div>
+    <p class="section__subtitle">World-class facilities. Expert guidance. Prices that make sense.</p>
+  </div>
+  <div class="grid-3">
+    <div class="why-card"><div class="why-card__icon">🏋️</div><div class="why-card__title">Modern Equipment</div><p class="why-card__text">State-of-the-art machines, free weights, treadmills and cardio equipment — everything you need under one roof.</p></div>
+    <div class="why-card"><div class="why-card__icon">🎯</div><div class="why-card__title">Expert Trainers</div><p class="why-card__text">Certified professionals who design personalized programs and guide you every step of your fitness journey.</p></div>
+    <div class="why-card"><div class="why-card__icon">💪</div><div class="why-card__title">Affordable Plans</div><p class="why-card__text">Membership starting at just ₹1,200/month — because quality fitness should be accessible to everyone.</p></div>
+  </div>
+</div>
+<div style="background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:4rem 2rem;">
+  <div style="max-width:1100px;margin:0 auto;">
+    <div class="section__header">
+      <span class="section__label">What We Offer</span>
+      <h2 class="section__title">Our Services</h2>
+      <div class="divider-line"></div>
+    </div>
+    <div class="grid-6">
+      <a href="services.html" class="service-mini"><div class="service-mini__icon">🏋️</div><div class="service-mini__name">Strength</div></a>
+      <a href="services.html" class="service-mini"><div class="service-mini__icon">🏃</div><div class="service-mini__name">Cardio</div></a>
+      <a href="services.html" class="service-mini"><div class="service-mini__icon">👤</div><div class="service-mini__name">Personal</div></a>
+      <a href="services.html" class="service-mini"><div class="service-mini__icon">🧘</div><div class="service-mini__name">Zumba &amp; Yoga</div></a>
+      <a href="services.html" class="service-mini"><div class="service-mini__icon">🥗</div><div class="service-mini__name">Nutrition</div></a>
+      <a href="services.html" class="service-mini"><div class="service-mini__icon">🤝</div><div class="service-mini__name">Community</div></a>
+    </div>
+    <div style="text-align:center;margin-top:2.5rem;"><a href="services.html" class="btn-outline">View All Services</a></div>
+  </div>
+</div>
+<section class="cta-section">
+  <h2 class="cta-section__title">Ready to Start Your Transformation?</h2>
+  <p class="cta-section__text">Join hundreds of members who changed their lives at Fit India Gym.</p>
+  <a href="membership.html" class="btn-primary">Join Today →</a>
+</section>
+<footer class="footer">
+  <div class="footer__grid">
+    <div>
+      <div class="footer__logo">
+        <img src="images/logo.png" alt="Fit India Gym"/>
+        <span class="footer__brand">FIT <span class="ti-s">I</span><span class="ti-s">N</span><span class="ti-w">D</span><span class="ti-w">I</span><span class="ti-g">A</span> GYM</span>
+      </div>
+      <p class="footer__tagline">Transform your physique, elevate your life. Your premier fitness destination.</p>
+    </div>
+    <div>
+      <h3 class="footer__heading">Quick Links</h3>
+      <ul class="footer__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="footer__heading">Contact &amp; Hours</h3>
+      <div class="footer__contact-item">
+        <span class="footer__contact-icon">📍</span>
+        <span class="footer__contact-text">CC Power Square, Behind Yashika Palace,<br>Pithampur, Dist. Dhar, Madhya Pradesh</span>
+      </div>
+      <div class="footer__contact-item">
+        <span class="footer__contact-icon">📞</span>
+        <span class="footer__contact-text">+91 8718074703<br>+91 7999672577</span>
+      </div>
+      <div class="footer__contact-item">
+        <span class="footer__contact-icon">🕐</span>
+        <span class="footer__contact-text">Morning 5:00 AM – 10:00 AM<br>Evening 5:00 PM – 10:00 PM</span>
+      </div>
+      <div class="footer__contact-item">
+        <a href="https://www.instagram.com/fit_india_gym_pithampur" target="_blank" class="footer__insta">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#ff6600" stroke="none"/></svg>
+          <span>@fit_india_gym_pithampur</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>&copy; 2026 Fit India Gym, Pithampur. All rights reserved.</span>
+    <span>Designed by Shreyansh Vaishnav</span>
+  </div>
+</footer>
+<script>
+function toggleMenu() {
+  document.getElementById('mobileNav').classList.toggle('open');
+  document.getElementById('hamburger').classList.toggle('open');
+}
+</script>
+</body>
+</html>

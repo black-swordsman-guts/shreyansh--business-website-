@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Membership — Fit India Gym</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="images/logo.png"/>
+</head>
+<body>
+<header class="navbar">
+  <a href="index.html" class="navbar__logo">
+    <img src="images/logo.png" alt="Fit India Gym Logo"/>
+    <span class="navbar__brand">FIT <span class="ti-s">I</span><span class="ti-s">N</span><span class="ti-w">D</span><span class="ti-w">I</span><span class="ti-g">A</span> GYM</span>
+  </a>
+  <nav class="nav-container">
+    <a href="index.html" class="nav-btn">Home</a>
+    <a href="services.html" class="nav-btn">Services</a>
+    <a href="membership.html" class="nav-btn  active">Membership</a>
+    <a href="gallery.html" class="nav-btn">Gallery</a>
+    <a href="about.html" class="nav-btn">About</a>
+    <svg class="outline" xmlns="http://www.w3.org/2000/svg">
+      <rect class="rect" pathLength="100" fill="none" width="100%" height="100%"/>
+    </svg>
+  </nav>
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle Menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<nav class="mobile-nav" id="mobileNav">
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="membership.html"  class="active">Membership</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+</nav>
+<section class="page-hero">
+  <span class="page-hero__label">Start Your Journey</span>
+  <h1 class="page-hero__title">Choose Your Plan</h1>
+  <p class="page-hero__sub">Flexible plans that fit your lifestyle and budget.</p>
+</section>
+<div class="section">
+  <div class="hours-banner">
+    <div class="hours-banner__icon">🕐</div>
+    <div>
+      <div class="hours-banner__title">Gym Working Hours</div>
+      <div class="hours-banner__times">Morning 5:00 AM – 10:00 AM &nbsp;&nbsp;·&nbsp;&nbsp; Evening 5:00 PM – 10:00 PM</div>
+      <div class="hours-banner__note">Monday to Saturday &nbsp;·&nbsp; Closed on Sundays</div>
+    </div>
+  </div>
+  <div class="section__header" style="margin-bottom:2rem;">
+    <span class="section__label">Membership Plans</span>
+    <h2 class="section__title">Pick What Works for You</h2>
+    <div class="divider-line"></div>
+  </div>
+  <div class="pricing-grid">
+    <div class="pricing-card">
+      
+      <div class="pricing-card__plan">Monthly</div>
+      <div class="pricing-card__price">&#8377;1,200</div>
+      <div class="pricing-card__duration">Billed monthly &nbsp;&middot;&nbsp; No commitment</div>
+      <ul class="pricing-card__features">
+        <li>Gym Floor Access</li>
+        <li>All Group Classes</li>
+        <li>Yoga Sessions</li>
+        <li>Zumba Classes</li>
+        <li>CrossFit Sessions</li>
+        <li>Expert Trainer Support</li>
+      </ul>
+      <button class="btn-wa" onclick="window.open('https://wa.me/918718074703?text=Hi%2C%20I%20want%20to%20join%20Fit%20India%20Gym%20on%20Monthly%20Plan%20%28%E2%82%B91200%29','_blank')">
+        <p>Get Started</p>
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.555 4.103 1.524 5.832L0 24l6.336-1.504A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.001-1.368l-.36-.214-3.761.893.938-3.648-.235-.374A9.778 9.778 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+      </button>
+    </div>
+    <div class="pricing-card">
+      
+      <div class="pricing-card__plan">Quarterly</div>
+      <div class="pricing-card__price">&#8377;3,000</div>
+      <div class="pricing-card__duration">Every 3 months &nbsp;&middot;&nbsp; &#8377;1,000/mo effective</div>
+      <ul class="pricing-card__features">
+        <li>Gym Floor Access</li>
+        <li>All Group Classes</li>
+        <li>Yoga Sessions</li>
+        <li>Zumba Classes</li>
+        <li>CrossFit Sessions</li>
+        <li>Expert Trainer Support</li>
+      </ul>
+      <button class="btn-wa" onclick="window.open('https://wa.me/918718074703?text=Hi%2C%20I%20want%20to%20join%20Fit%20India%20Gym%20on%20Quarterly%20Plan%20%28%E2%82%B93000%29','_blank')">
+        <p>Get Started</p>
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.555 4.103 1.524 5.832L0 24l6.336-1.504A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.001-1.368l-.36-.214-3.761.893.938-3.648-.235-.374A9.778 9.778 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+      </button>
+    </div>
+    <div class="pricing-card featured">
+      <div class="pricing-badge">&#9733; Best Value</div>
+      <div class="pricing-card__plan">Half Year</div>
+      <div class="pricing-card__price">&#8377;5,000</div>
+      <div class="pricing-card__duration">Every 6 months &nbsp;&middot;&nbsp; &#8377;833/mo effective</div>
+      <ul class="pricing-card__features">
+        <li>Gym Floor Access</li>
+        <li>All Group Classes</li>
+        <li>Yoga Sessions</li>
+        <li>Zumba Classes</li>
+        <li>CrossFit Sessions</li>
+        <li>Expert Trainer Support</li>
+      </ul>
+      <button class="btn-wa" onclick="window.open('https://wa.me/918718074703?text=Hi%2C%20I%20want%20to%20join%20Fit%20India%20Gym%20on%20Half%20Year%20Plan%20%28%E2%82%B95000%29','_blank')">
+        <p>Get Started</p>
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.555 4.103 1.524 5.832L0 24l6.336-1.504A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.001-1.368l-.36-.214-3.761.893.938-3.648-.235-.374A9.778 9.778 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+      </button>
+    </div>
+    <div class="pricing-card">
+      
+      <div class="pricing-card__plan">Yearly</div>
+      <div class="pricing-card__price">&#8377;8,000</div>
+      <div class="pricing-card__duration">Billed annually &nbsp;&middot;&nbsp; &#8377;667/mo effective</div>
+      <ul class="pricing-card__features">
+        <li>Gym Floor Access</li>
+        <li>All Group Classes</li>
+        <li>Yoga Sessions</li>
+        <li>Zumba Classes</li>
+        <li>CrossFit Sessions</li>
+        <li>Expert Trainer Support</li>
+      </ul>
+      <button class="btn-wa" onclick="window.open('https://wa.me/918718074703?text=Hi%2C%20I%20want%20to%20join%20Fit%20India%20Gym%20on%20Yearly%20Plan%20%28%E2%82%B98000%29','_blank')">
+        <p>Get Started</p>
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.117.555 4.103 1.524 5.832L0 24l6.336-1.504A11.94 11.94 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.8 9.8 0 01-5.001-1.368l-.36-.214-3.761.893.938-3.648-.235-.374A9.778 9.778 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/></svg>
+      </button>
+    </div>
+  </div>
+  <div style="margin-top:5rem;">
+    <div class="addon-section-title">Add-On Services</div>
+    <p class="addon-section-sub">Enhance your membership with premium add-ons.</p>
+    <div class="addon-grid">
+      <div class="addon-card"><div class="addon-card__icon">♨️</div><div class="addon-card__name">Steam Bath</div><div class="addon-card__price">+&#8377;300</div><div class="addon-card__sub">per month · Post-workout recovery</div></div>
+      <div class="addon-card"><div class="addon-card__icon">🔐</div><div class="addon-card__name">Locker Access</div><div class="addon-card__price">+&#8377;100</div><div class="addon-card__sub">per month · Secure personal storage</div></div>
+      <div class="addon-card"><div class="addon-card__icon">👤</div><div class="addon-card__name">Personal Training</div><div class="addon-card__price">+&#8377;3,000</div><div class="addon-card__sub">per month · 1-on-1 certified trainer</div></div>
+    </div>
+  </div>
+</div>
+<footer class="footer">
+  <div class="footer__grid">
+    <div>
+      <div class="footer__logo">
+        <img src="images/logo.png" alt="Fit India Gym"/>
+        <span class="footer__brand">FIT <span class="ti-s">I</span><span class="ti-s">N</span><span class="ti-w">D</span><span class="ti-w">I</span><span class="ti-g">A</span> GYM</span>
+      </div>
+      <p class="footer__tagline">Transform your physique, elevate your life. Your premier fitness destination.</p>
+    </div>
+    <div>
+      <h3 class="footer__heading">Quick Links</h3>
+      <ul class="footer__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="footer__heading">Contact &amp; Hours</h3>
+      <div class="footer__contact-item">
+        <span class="footer__contact-icon">📍</span>
+        <span class="footer__contact-text">CC Power Square, Behind Yashika Palace,<br>Pithampur, Dist. Dhar, Madhya Pradesh</span>
+      </div>
+      <div class="footer__contact-item">
+        <span class="footer__contact-icon">📞</span>
+        <span class="footer__contact-text">+91 8718074703<br>+91 7999672577</span>
+      </div>
+      <div class="footer__contact-item">
+        <span class="footer__contact-icon">🕐</span>
+        <span class="footer__contact-text">Morning 5:00 AM – 10:00 AM<br>Evening 5:00 PM – 10:00 PM</span>
+      </div>
+      <div class="footer__contact-item">
+        <a href="https://www.instagram.com/fit_india_gym_pithampur" target="_blank" class="footer__insta">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#ff6600" stroke="none"/></svg>
+          <span>@fit_india_gym_pithampur</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>&copy; 2026 Fit India Gym, Pithampur. All rights reserved.</span>
+    <span>Designed by Shreyansh Vaishnav</span>
+  </div>
+</footer>
+<script>
+function toggleMenu() {
+  document.getElementById('mobileNav').classList.toggle('open');
+  document.getElementById('hamburger').classList.toggle('open');
+}
+</script>
+</body>
+</html>

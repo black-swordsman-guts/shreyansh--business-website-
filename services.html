@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Services — Fit India Gym</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="images/logo.png"/>
+</head>
+<body>
+<header class="navbar">
+  <a href="index.html" class="navbar__logo">
+    <img src="images/logo.png" alt="Fit India Gym Logo"/>
+    <span class="navbar__brand">FIT <span class="ti-s">I</span><span class="ti-s">N</span><span class="ti-w">D</span><span class="ti-w">I</span><span class="ti-g">A</span> GYM</span>
+  </a>
+  <nav class="nav-container">
+    <a href="index.html" class="nav-btn">Home</a>
+    <a href="services.html" class="nav-btn  active">Services</a>
+    <a href="membership.html" class="nav-btn">Membership</a>
+    <a href="gallery.html" class="nav-btn">Gallery</a>
+    <a href="about.html" class="nav-btn">About</a>
+    <svg class="outline" xmlns="http://www.w3.org/2000/svg">
+      <rect class="rect" pathLength="100" fill="none" width="100%" height="100%"/>
+    </svg>
+  </nav>
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Toggle Menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+<nav class="mobile-nav" id="mobileNav">
+  <a href="index.html">Home</a>
+  <a href="services.html"  class="active">Services</a>
+  <a href="membership.html">Membership</a>
+  <a href="gallery.html">Gallery</a>
+  <a href="about.html">About</a>
+</nav>
+<section class="page-hero">
+  <span class="page-hero__label">What We Offer</span>
+  <h1 class="page-hero__title">Our Services</h1>
+  <p class="page-hero__sub">Everything you need to achieve your fitness goals — under one roof.</p>
+</section>
+<div class="section">
+  <div class="grid-3" style="gap:2rem;">
+    <div class="service-card">
+      <div class="service-card__icon">🏋️</div>
+      <h3 class="service-card__title">Strength Training</h3>
+      <p class="service-card__text">Build muscle, increase power, and sculpt your physique with our fully equipped strength floor. We offer a wide range of free weights, barbells, dumbbells, cable machines, and resistance equipment catering to beginners and advanced lifters alike. Our trainers ensure proper form so you train hard and stay injury-free.</p>
+      <span class="service-card__tag">Available Daily</span>
+    </div>
+    <div class="service-card">
+      <div class="service-card__icon">🏃</div>
+      <h3 class="service-card__title">Cardio Workout</h3>
+      <p class="service-card__text">Burn calories, boost your stamina, and improve heart health with our cardio zone. Featuring treadmills, elliptical machines, stationary bikes, and rowing machines. We also conduct HIIT sessions that deliver maximum results in minimum time.</p>
+      <span class="service-card__tag">HIIT · Treadmill · Elliptical</span>
+    </div>
+    <div class="service-card">
+      <div class="service-card__icon">👤</div>
+      <h3 class="service-card__title">Personal Training</h3>
+      <p class="service-card__text">Get 1-on-1 attention from certified personal trainers who design a fully customized program based on your body type, fitness level, and specific goals. Whether you want to lose weight, build muscle, or improve athletic performance — your trainer is with you every rep of the way.</p>
+      <span class="service-card__tag">1-on-1 · Certified Trainers</span>
+    </div>
+    <div class="service-card">
+      <div class="service-card__icon">🧘</div>
+      <h3 class="service-card__title">Zumba &amp; Yoga Studio</h3>
+      <p class="service-card__text">Our dedicated studio hosts energetic Zumba dance fitness classes and calming Yoga sessions throughout the week. Both are open to all fitness levels — no experience needed. Zumba makes fitness feel like a party while Yoga restores flexibility, improves posture, and brings mental clarity.</p>
+      <span class="service-card__tag">Group Classes · All Levels</span>
+    </div>
+    <div class="service-card">
+      <div class="service-card__icon">🥗</div>
+      <h3 class="service-card__title">Nutrition Assistance</h3>
+      <p class="service-card__text">Fitness is 30% gym and 70% kitchen. Our experts guide you with personalized diet plans, macro tracking, meal timing, and supplement recommendations. We also stock a range of quality supplements at our in-gym nutrition counter.</p>
+      <span class="service-card__tag">Diet Plans · Supplements</span>
+    </div>
+    <div class="service-card">
+      <div class="service-card__icon">🤝</div>
+      <h3 class="service-card__title">Community Support</h3>
+      <p class="service-card__text">At Fit India Gym, you are never alone on your journey. We foster a strong, inclusive community where members motivate each other, celebrate milestones, and push limits together. From group challenges to member events, our culture makes the gym a place you look forward to every day.</p>
+      <span class="service-card__tag">Group Events · Motivation</span>
+    </div>
+  </div>
+</div>
+<section class="cta-section">
+  <h2 class="cta-section__title">Ready to Experience These Services?</h2>
+  <p class="cta-section__text">Choose a membership plan and get started today.</p>
+  <a href="membership.html" class="btn-primary">View Plans →</a>
+</section>
+<footer class="footer">
+  <div class="footer__grid">
+    <div>
+      <div class="footer__logo">
+        <img src="images/logo.png" alt="Fit India Gym"/>
+        <span class="footer__brand">FIT <span class="ti-s">I</span><span class="ti-s">N</span><span class="ti-w">D</span><span class="ti-w">I</span><span class="ti-g">A</span> GYM</span>
+      </div>
+      <p class="footer__tagline">Transform your physique, elevate your life. Your premier fitness destination.</p>
+    </div>
+    <div>
+      <h3 class="footer__heading">Quick Links</h3>
+      <ul class="footer__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="membership.html">Membership</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3 class="footer__heading">Contact &amp; Hours</h3>
+      <div class="footer__contact-item">
+        <span class="footer__contact-icon">📍</span>
+        <span class="footer__contact-text">CC Power Square, Behind Yashika Palace,<br>Pithampur, Dist. Dhar, Madhya Pradesh</span>
+      </div>
+      <div class="footer__contact-item">
+        <span class="footer__contact-icon">📞</span>
+        <span class="footer__contact-text">+91 8718074703<br>+91 7999672577</span>
+      </div>
+      <div class="footer__contact-item">
+        <span class="footer__contact-icon">🕐</span>
+        <span class="footer__contact-text">Morning 5:00 AM – 10:00 AM<br>Evening 5:00 PM – 10:00 PM</span>
+      </div>
+      <div class="footer__contact-item">
+        <a href="https://www.instagram.com/fit_india_gym_pithampur" target="_blank" class="footer__insta">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#ff6600" stroke="none"/></svg>
+          <span>@fit_india_gym_pithampur</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <span>&copy; 2026 Fit India Gym, Pithampur. All rights reserved.</span>
+    <span>Designed by Shreyansh Vaishnav</span>
+  </div>
+</footer>
+<script>
+function toggleMenu() {
+  document.getElementById('mobileNav').classList.toggle('open');
+  document.getElementById('hamburger').classList.toggle('open');
+}
+</script>
+</body>
+</html>
